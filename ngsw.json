@@ -1,0 +1,100 @@
+{
+  "configVersion": 1,
+  "timestamp": 1593335850750,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.80a849ebf1fc0995d1d0.js",
+        "/main-es5.80a849ebf1fc0995d1d0.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.442fa3cc45520cc0d518.js",
+        "/polyfills-es5.fd3af48698f9b02947d9.js",
+        "/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/runtime-es5.0811dcefd377500b5b1a.js",
+        "/styles.edf66c2808a8da4ed6a8.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/custom_grid.scss",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/img/ankit.jpg",
+        "/assets/img/logo.png",
+        "/assets/theme.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "quotes-api",
+      "patterns": [
+        "https:\\/\\/api\\.covid19india\\.org\\/v3\\/min\\/data\\.min\\.json"
+      ],
+      "strategy": "freshness",
+      "maxSize": 2,
+      "maxAge": 14400000,
+      "timeoutMs": 3000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/custom_grid.scss": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+    "/assets/icons/icon-128x128.png": "3c11cfd0f16c8c59ed4dc433422b79c4cd6de014",
+    "/assets/icons/icon-144x144.png": "d8bb9b1900adb5294343994bb615dcf347d64934",
+    "/assets/icons/icon-152x152.png": "4cae8a3276c6f4590dd3dc42fd4e3fcf868315e9",
+    "/assets/icons/icon-192x192.png": "12d5f84176ff5c0025c23bdac72693abd8ddcb3f",
+    "/assets/icons/icon-384x384.png": "a24591df0b6b9268e42596d2c2531cac3ccdd291",
+    "/assets/icons/icon-512x512.png": "99aec6822dd0dd89303ef3f6fc5266423317fc59",
+    "/assets/icons/icon-72x72.png": "433c96f8f3d552a80ea8fa94864bac1f36b96fb3",
+    "/assets/icons/icon-96x96.png": "fd038871bf83a1339f82fb3a3ea994fdcca58285",
+    "/assets/img/ankit.jpg": "ae38f0e21d6616f10f93d1392c159c5407e966f0",
+    "/assets/img/logo.png": "cb84a1e390af63436dedcaff9e7df801be88a7e3",
+    "/assets/theme.scss": "0ea195f0ca1d438c5e493d73df83c181ec34994f",
+    "/favicon.ico": "9877eb57ff471bc459b19a127454d9f57dbf2c1b",
+    "/index.html": "603b486fbb7fbd1e8d60289669a2b5188b450cf4",
+    "/main-es2015.80a849ebf1fc0995d1d0.js": "859a9b0e04009d85551ff70fdda7f1a20059a485",
+    "/main-es5.80a849ebf1fc0995d1d0.js": "e208fe0b6ed1f01d2d4d309bb9eec0c77ccfd353",
+    "/manifest.webmanifest": "fd9da7f91cd2187f00ef510432ddbbd82ebe841f",
+    "/polyfills-es2015.442fa3cc45520cc0d518.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
+    "/polyfills-es5.fd3af48698f9b02947d9.js": "29c3dfd16faa921dd49165f318f9eed12a2f3be7",
+    "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.edf66c2808a8da4ed6a8.css": "671f42abf5233daad44bbf20d07ad9ab9fa84bc4"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
